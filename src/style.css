@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  background-color: rgb(186, 177, 177);
 }
 
 html {
@@ -19,11 +20,22 @@ header {
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
+  background-color: white;
+  border-radius: 50px;
 }
 
 .logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+  background-image: url(./img/user.svg);
+  background-size:96%; 
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+h1{
+  background-color: rgb(60, 58, 58);
+  color: white;
+  border-radius: 100px;
+  padding: 0.5em;
 }
